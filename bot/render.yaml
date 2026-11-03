@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: neu-product-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: DATABASE_CHANNEL_ID
+        sync: false
+      - key: FEEDBACK_CHANNEL_ID
+        sync: false
+      - key: OXAPAY_MERCHANT_API_KEY
+        sync: false
+      - key: FAMPAY_MERCHANT_VPA
+        sync: false
+      - key: FAMPAY_WEBHOOK_SECRET
+        sync: false

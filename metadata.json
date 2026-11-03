@@ -1,0 +1,6 @@
+{
+  "name": "NEU PRODUCT BOT — Telegram Digital Store & Architecture Suite",
+  "description": "Production-ready asynchronous Python Telegram Digital Product Selling Bot (Pyrogram + Motor MongoDB Atlas + aiohttp Render Server) with Owner/Admin hierarchy, User Wallet, Dynamic Toggles, and Live Interactive Simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
